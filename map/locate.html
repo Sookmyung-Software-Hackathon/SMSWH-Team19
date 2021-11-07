@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mapstyle.css" />
+    <title>무상 정혈대함</title>
+    <script
+      src="https://kit.fontawesome.com/4d0ebccd1e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="logo">
+          <i class="far fa-snowflake"></i>
+          <a href="../index.html">SCC</a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="../소개/intro.html">소개</a></li>
+            <li><a href="../생리공결제 페이지/check2.html">생리공결제도</a></li>
+            <li><a href="#">무상 정혈대함</a></li>
+            <li>
+              <a onclick="alert('페이지 준비 중입니다..^^7')"> 보건의료센터 </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="system-info">
+        <h1>무상 정혈대함 사업</h1>
+        <p>
+          제53대 중앙비상대책위원회 '눈보라' 연대복지국은 <십시일생(生) : 대학
+          내 상비 생리대 프로젝트>에 참여함에 따라,<br />
+          학우분들께서 긴급한 상황에 무상으로 정혈대를 사용할 수 있도록 학내에
+          무상 정혈대 비치함을 설치하는 사업을 진행합니다.
+        </p>
+      </section>
+      <!--구분선-->
+      <div class="bottom"></div>
+      <br />
+
+      <section id="wholemap">
+        <div class="sm_map">
+          <div class="map_group">
+            <div class="map-modal">
+              <img src="image/JJJJKJKJK.PNG" />
+              <div class="임시div">
+                <div class="modal_mark">
+                  <!-- 순헌관 마커 -->
+                  <div style="position: absolute; top: 50px; left: 240px">
+                    <span class="material-icons" onclick="openModal(1)">
+                      location_on
+                    </span>
+                  </div>
+                </div>
+                <div class="modal_mark">
+                  <!-- 진리관 마커 -->
+                  <div style="position: absolute; top: 70px; left: 130px">
+                    <span class="material-icons" onclick="openModal(2)">
+                      location_on
+                    </span>
+                  </div>
+                </div>
+                <div class="modal_mark">
+                  <!-- 명신관 마커 -->
+                  <div style="position: absolute; top: 190px; left: 80px">
+                    <span class="material-icons" onclick="openModal(3)">
+                      location_on
+                    </span>
+                  </div>
+                </div>
+                <div class="modal_mark">
+                  <!-- 새힘관 마커 -->
+                  <div style="position: absolute; top: 270px; left: 90px">
+                    <span class="material-icons" onclick="openModal(4)">
+                      location_on
+                    </span>
+                  </div>
+                </div>
+                <div class="modal_mark">
+                  <!-- 학생회관 마커 -->
+                  <div style="position: absolute; top: 250px; left: 300px">
+                    <span class="material-icons" onclick="openModal(5)">
+                      location_on
+                    </span>
+                  </div>
+                </div>
+                <div class="modal_mark">
+                  <!-- 프라임관 마커 -->
+                  <div style="position: absolute; top: 400px; left: 280px">
+                    <span class="material-icons" onclick="openModal(6)">
+                      location_on
+                    </span>
+                  </div>
+                </div>
+                <div class="modal_mark">
+                  <!-- 르네상스 마커 -->
+                  <div style="position: absolute; top: 420px; left: 150px">
+                    <span class="material-icons" onclick="openModal(7)">
+                      location_on
+                    </span>
+                  </div>
+                </div>
+                <div class="modal_mark">
+                  <!-- 과학관 마커 -->
+                  <div style="position: absolute; top: 420px; left: 480px">
+                    <span class="material-icons" onclick="openModal(8)">
+                      location_on
+                    </span>
+                  </div>
+                </div>
+                <div class="modal_mark">
+                  <!-- 중앙도서관 마커 -->
+                  <div style="position: absolute; top: 530px; left: 480px">
+                    <span class="material-icons" onclick="openModal(9)">
+                      location_on
+                    </span>
+                  </div>
+                </div>
+                <div class="modal_mark">
+                  <!-- 미대 마커 -->
+                  <div style="position: absolute; top: 450px; left: 280px">
+                    <span class="material-icons" onclick="openModal(10)">
+                      location_on
+                    </span>
+                  </div>
+                </div>
+                <div class="modal_mark">
+                  <!-- 음대 마커 -->
+                  <div style="position: absolute; top: 470px; left: 150px">
+                    <span class="material-icons" onclick="openModal(11)">
+                      location_on
+                    </span>
+                  </div>
+                </div>
+                <div class="modal_mark">
+                  <!-- 약대 마커 -->
+                  <div style="position: absolute; top: 580px; left: 220px">
+                    <span class="material-icons" onclick="openModal(12)">
+                      location_on
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 유의사항 -->
+            <div class="notice">
+              <li><b>* 유의사항</b></li>
+              <li>- 본 정혈대함을 무단으로 이동하는 것을 금합니다.</li>
+              <li>- 정혈대 함을 청결하게 유지해주세요</li>
+              <li>
+                - 다른 학우들을 위하여 정혈대를 필요한 만큼만 가져가주세요
+              </li>
+            </div>
+          </div>
+          <!-- 건물리스트 -->
+          <ul class="sm_list">
+            <li class="modal_btn" onclick="openModal(1)">순헌관</li>
+            <li class="modal_btn" onclick="openModal(2)">명신관</li>
+            <li class="modal_btn" onclick="openModal(3)">진리관</li>
+            <li class="modal_btn" onclick="openModal(4)">새힘관</li>
+            <li class="modal_btn" onclick="openModal(5)">학생회관</li>
+            <li class="modal_btn" onclick="openModal(6)">프라임관</li>
+            <li class="modal_btn" onclick="openModal(7)">르네상스플라자</li>
+            <li class="modal_btn" onclick="openModal(8)">과학관</li>
+            <li class="modal_btn" onclick="openModal(9)">중앙도서관</li>
+            <li class="modal_btn" onclick="openModal(10)">미술대학</li>
+            <li class="modal_btn" onclick="openModal(11)">음악대학</li>
+            <li class="modal_btn" onclick="openModal(12)">약학대학</li>
+          </ul>
+        </div>
+      </section>
+      <!-- 모달부분 -->
+      <div class="modal">
+        <div class="modal_wrap">
+          <div class="shimg">
+            <img src="image/순헌_수정.jpg" />
+          </div>
+          <div class="example">
+            <h1>순헌관</h1>
+            <h3>B1층 카페 건너편 기둥 옆</h3>
+          </div>
+        </div>
+      </div>
+      <div class="modal">
+        <div class="modal_wrap">
+          <div class="shimg">
+            <img src="image/명신_수정.jpg" />
+          </div>
+          <div class="example">
+            <h1>명신관</h1>
+            <h3>2층 정순옥 라운지 내</h3>
+          </div>
+        </div>
+      </div>
+      <div class="modal">
+        <div class="modal_wrap">
+          <div class="shimg">
+            <img src="image/진리_수정.jpg" />
+          </div>
+          <div class="example">
+            <h1>진리관</h1>
+            <h3>1층 도서 무인 반납함 옆</h3>
+          </div>
+        </div>
+      </div>
+      <div class="modal">
+        <div class="modal_wrap">
+          <div class="shimg">
+            <img src="image/새힘_수정.jpg" />
+          </div>
+          <div class="example">
+            <h1>새힘관</h1>
+            <h3>1층 엘레베이터 앞 협탁</h3>
+          </div>
+        </div>
+      </div>
+      <div class="modal">
+        <div class="modal_wrap">
+          <div class="shimg">
+            <img src="image/학생회관_수정.jpg" />
+          </div>
+          <div class="example">
+            <h1>학생회관</h1>
+            <h3>3층 301호 앞</h3>
+          </div>
+        </div>
+      </div>
+      <div class="modal">
+        <div class="modal_wrap">
+          <div class="shimg">
+            <img src="image/프라임_수정.jpg" />
+          </div>
+          <div class="example">
+            <h1>프라임관</h1>
+            <h3>2층 엘레베이터 옆</h3>
+          </div>
+        </div>
+      </div>
+      <div class="modal">
+        <div class="modal_wrap">
+          <div class="shimg">
+            <img src="image/르네상스_수정.jpg" />
+          </div>
+          <div class="example">
+            <h1>르네상스플라자</h1>
+            <h3>B1층 엘레베이터 옆</h3>
+          </div>
+        </div>
+      </div>
+      <div class="modal">
+        <div class="modal_wrap">
+          <div class="shimg">
+            <img src="image/과학관_수정.jpg" />
+          </div>
+          <div class="example">
+            <h1>과학관</h1>
+            <h3>1층 atm기 앞 계단부근</h3>
+          </div>
+        </div>
+      </div>
+      <div class="modal">
+        <div class="modal_wrap">
+          <div class="shimg">
+            <img src="image/중도_수정.jpg" />
+          </div>
+          <div class="example">
+            <h1>중앙도서관</h1>
+            <h3>6층 열람실 화장실 앞</h3>
+          </div>
+        </div>
+      </div>
+      <div class="modal">
+        <div class="modal_wrap">
+          <div class="shimg">
+            <img src="image/미대_수정.jpg" />
+          </div>
+          <div class="example">
+            <h1>미술대학</h1>
+            <h3>1층 미니 휴게실 사물함 위</h3>
+          </div>
+        </div>
+      </div>
+      <div class="modal">
+        <div class="modal_wrap">
+          <div class="shimg">
+            <img src="image/음대_수정.jpg" />
+          </div>
+          <div class="example">
+            <h1>음악대학</h1>
+            <h3>1층 자판기 옆</h3>
+          </div>
+        </div>
+      </div>
+      <div class="modal">
+        <div class="modal_wrap">
+          <div class="shimg">
+            <img src="image/약대_수정.jpg" />
+          </div>
+          <div class="example">
+            <h1>약학대학</h1>
+            <h3>1층 엘레베이터 좌측 녹색 사물함 옆</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="map.js"></script>
+  </body>
+</html>

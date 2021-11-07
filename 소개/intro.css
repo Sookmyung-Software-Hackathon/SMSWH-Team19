@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;900&family=Permanent+Marker&display=swap");
+
+html {
+  background: url("../img/namsanbg.3jpg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: "Noto Serif KR", serif;
+}
+
+.content {
+  margin: 150px 0px 30px 100px;
+}
+
+.title1 {
+  font-size: 3em;
+  color: white;
+}
+.title2 {
+  font-size: 23px;
+  letter-spacing: 1px;
+  word-spacing: 7px;
+  line-height: 1.8;
+  color: white;
+}
+
+.wrap header {
+  width: 80%;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrap header .logo i {
+  color: snow;
+}
+
+.wrap header .logo a {
+  text-decoration: none;
+  color: white;
+  font-family: "Permanent Marker", cursive;
+  padding: 10px 5px;
+  letter-spacing: 1px;
+  font-size: 22px;
+}
+
+.wrap header nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.wrap header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Noto Serif KR", serif;
+}
+
+.wrap header nav ul li a:hover {
+  border-bottom: 2px solid white;
+  padding-bottom: 2px;
+}
+
+.bottom {
+  border: 5;
+  width: 100%;
+  box-align: center;
+  height: 10px;
+  background: white;
+}
+
+footer {
+  font-size: 1em;
+}
+
+.container2 {
+  font-family: "Noto Serif KR", serif;
+  font-size: small;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
