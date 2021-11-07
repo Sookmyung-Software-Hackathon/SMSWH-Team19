@@ -76,6 +76,7 @@ HTML과 CSS를 사용해서 웹 사이트의 구조를 만들고 Javascript를 �
 - **자료 출처**
 - [비대위 연대복지국] 십시일생 X 제53대 중앙비대위 무상 정혈대함 사업 카드뉴스
 - [비대위 연대복지국] 생리공결제 이모저모 카드뉴스
+- [총학생회 '모두' 생활복지국] '2019-2' 생리공결제 시범도입 경과 보고 https://snowe.sookmyung.ac.kr/bbs5/boards/notice/1135433
 - [사진갤러리 (sookmyung.ac.kr)](https://www.sookmyung.ac.kr/sookmyungkr/1279/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGc29va215dW5na3IlMkY5MiUyRjExMTYzOSUyRmFydGNsVmlldy5kbyUzRnBhZ2UlM0QxJTI2cm93JTNEOCUyNnNyY2hDb2x1bW4lM0QlMjZzcmNoV3JkJTNEJTI2YmJzQ2xTZXElM0QlMjZiYnNPcGVuV3JkU2VxJTNEJTI2cmdzQmduZGVTdHIlM0QlMjZyZ3NFbmRkZVN0ciUzRCUyNmlzVmlld01pbmUlM0RmYWxzZSUyNnBhc3N3b3JkJTNEJTI2)    
 
 ## 🔶프로토타입
